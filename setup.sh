@@ -7,5 +7,7 @@ echo "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDg+VUw2Y+GozBgr7maX+jQhjF2gvwGKXVatG
 echo "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDVoOKB417bwbchulJ3D3p19vOS2hh9N9P1gpGMjeFTyO+RifAL/OE+E1CePeszYd3hPLQXiFbMWLUDC44jfY9XspsSdgzAJEI9JIzfMG2+C7LNSwbHIpXHZNhV6vW8N2OH4OdWVwZ0oRCElL9VtmvU96rtaoBay5h9e2KdVZCjjTrk9HEZEmEtN8f8f0gQKhFdyft8tb736KrnAQzmnWd6bujwadSYFyoz0M8uwrDhpNRYE5ZQVNT+P/Jr/NRfjzMz7jCm/7JaKx2cznKBJ6gUq1jBiW5/UYfDt++cfrqcUkiTBBIhKt1qXJuP6DrBEEUNRm0jb0VAwA26qQcpPuJ9 ben@gunter" >> .ssh/authorized_keys
 sudo apt-get update
 sudo apt-get upgrade -y
-sudo apt-get install vim ipython ipython3 build-essential python-dev python3-dev python-virtualenv python3-virtualenv gnome-schedule -y
+sudo apt-get install vim build-essential python-dev python3-dev python-virtualenv python3-virtualenv gnome-schedule -y
+sudo pip install ipython
+sudo pip3 install ipython
 hostname -I
