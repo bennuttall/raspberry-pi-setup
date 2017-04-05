@@ -1,4 +1,3 @@
-hostname -I
 wget --no-check-certificate http://bennuttall.com/vimrc -O /home/pi/.vimrc
 sudo ln -s /home/pi/.vimrc /root/.vimrc
 echo "alias ll='ls -alF'" >> .bash_aliases
@@ -8,6 +7,6 @@ echo "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDVoOKB417bwbchulJ3D3p19vOS2hh9N9P1gp
 sudo apt-get update
 sudo apt-get upgrade -y
 sudo apt-get install vim build-essential python-dev python3-dev python-virtualenv python3-virtualenv gnome-schedule -y
-sudo pip install ipython
+sudo pip3 install pip --upgrade
 sudo pip3 install ipython
 hostname -I
